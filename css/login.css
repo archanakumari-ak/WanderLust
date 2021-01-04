@@ -1,0 +1,214 @@
+body, html {
+  height: 100%;
+  background-image: url('../images/loginbg1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.panel-style{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group .prefix {
+    position: absolute;
+    transition: color 0.2s;
+    top: .6rem;
+    
+}
+
+.form-label-group .prefix ~ input {
+    width: calc(100% - 2.5rem);
+    margin-left: 1.5rem;
+}
+
+.form-control{
+  height: auto;
+  border: none;
+  border-bottom: 1px solid #495057;
+  border-radius: 0;
+}
+.no-space{
+    padding: .375rem .75rem .375rem 0;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+/*.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin 
+  line-height: 1.5;
+  color: #495057;
+  
+  transition: all .1s ease-in-out;
+}*/
+
+
+
+.btn-google {
+    color: #ea4335;
+    background-color: white;
+    border: 1px solid #ea4335;
+}
+
+.btn-facebook {
+  color: #3b5998;
+  background-color: white;
+  border: 1px solid #3b5998;
+}
+
+.btn-google:hover {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook:hover {
+  color: white;
+  background-color: #3b5998;
+}
+/* Fallback for Edge
+-------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+    .card-signin {
+        font-size: 90%;
+    }
+}
+/*@media only screen and (max-width: 576px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}*/
+.card {
+    margin-bottom: 20px;
+}
+/*popup*/
+.modal-dialog .modal-content {
+    border: 0;
+    border-radius: .125rem;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+.md-form {
+    position: relative;
+    margin-top: 1.5rem;
+    
+}
+.md-form .prefix {
+    position: absolute;
+    transition: color 0.2s;
+    top: .8rem;
+    
+}
+.md-form .prefix ~ input {
+    width: calc(100% - 2.5rem);
+    margin-left: 1.8rem;
+}
+.md-form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    
+}
+.md-form .form-control {
+    box-sizing: border-box;
+    height: auto;
+    padding: .6rem 0 .4rem 0;
+    margin: 0 0 2.5rem 0;
+}
+
+.form-control {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+/*.md-form .prefix ~ label {
+    margin-left: 2.5rem;
+}
+.md-form>label {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.md-form label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    color: #757575;
+    cursor: text;
+    transition: transform .2s ease-out, color .2s ease-out, -webkit-transform .2s ease-out;
+    transform: translateY(12px);
+    transform-origin: 0% 100%;
+}*/
